@@ -1,0 +1,80 @@
+.working-on-section {
+	width: 100%;
+	height: auto;
+	background-color: black;
+}
+
+.works-section {
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	gap: 35px;
+}
+
+.heading-text {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 35px 0;
+	h2 {
+		font-family: 'Red Hat Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 35px;
+		font-style: normal;
+		color: white;
+	}
+}
+
+.works-example {
+	display: flex;
+	flex-direction: column;
+	max-width: 350px;
+	height: auto;
+	position: relative;
+
+	.img-container {
+		width: 350px;
+		height: auto;
+	}
+	.work-description {
+		padding-top: 20px;
+		max-width: 350px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 15px;
+		background-color: white;
+		padding: 10px 20px 10px 20px;
+		h3 {
+			font-family: 'Cinzel', serif;
+			font-optical-sizing: auto;
+			font-weight: 800;
+			font-style: normal;
+		}
+		p {
+			font-family: 'Markazi Text', serif;
+			font-optical-sizing: auto;
+			font-weight: 400;
+			font-size: 20px;
+			text-align: center;
+		}
+	}
+}
+
+.works-example::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.35;
+	pointer-events: none;
+	transition: opacity 0.3s ease;
+}
+
+.works-example:hover::before {
+	opacity: 0;
+}

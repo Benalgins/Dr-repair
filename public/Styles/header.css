@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle&display=swap');
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	padding-bottom: 10px;
+}
+.header-container {
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+.logo-img {
+	display: flex;
+	width: 110px;
+	height: 110px;
+}
+
+.site-name {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+	p:nth-of-type(1) {
+		text-transform: uppercase;
+		font-size: large;
+		color: #bb2322;
+		font-family: 'Sonsie One', system-ui;
+		font-weight: 400;
+		font-style: normal;
+	}
+	p:nth-of-type(2) {
+		text-transform: uppercase;
+		color: white;
+		font-family: 'Golos Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: 5px;
+	}
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+	a {
+		color: white;
+		text-decoration: none;
+		font-family: 'Archivo', sans-serif;
+		font-weight: 400;
+		transition: color 0.3s ease;
+	}
+}
+nav a:hover {
+	color: red;
+}
+
+.login-menu {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+	.login-icon {
+		width: 35px;
+		height: 35px;
+		display: flex;
+	}
+	p {
+		color: white;
+		font-family: 'Archivo', sans-serif;
+		font-weight: 400;
+		transition: color 0.3s ease;
+	}
+}
+
+.login-menu:hover {
+	p {
+		color: red;
+	}
+}

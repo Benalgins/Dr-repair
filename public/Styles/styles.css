@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Markazi+Text:wght@400..700&display=swap');
+
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./frontal-section.css');
+@import url('./brand-service.css');
+@import url('./our-offers.css');
+@import url('./working-on.css');

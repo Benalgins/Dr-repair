@@ -1,0 +1,131 @@
+.our-offers {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+.background-image {
+	background-image: url('../Imgs/offer-background.jpg');
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.background-image::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: black;
+	opacity: 0.55;
+}
+
+.text-holder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	text-align: center;
+	width: 100%;
+	gap: 50px;
+	h3 {
+		font-family: 'Red Hat Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 40px;
+		font-style: normal;
+		color: white;
+		animation: slideTextIn 1s ease-out forwards;
+	}
+
+	p {
+		padding: 0 60px 0 60px;
+		max-width: 100%;
+		font-family: 'Markazi Text', serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 30px;
+		font-style: normal;
+		color: rgb(125, 124, 124);
+		animation: slideTextIn 1.2s ease-out forwards;
+		filter: contrast(1.7);
+		text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+			1px 1px 0 black; /* Black outline effect */
+	}
+}
+
+.offers {
+	display: flex;
+	justify-content: space-around;
+	align-items: start;
+	width: 100%;
+	height: auto;
+	animation: slideTextIn 1.3s ease-out forwards;
+}
+.offer {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	width: 400px;
+	height: 250px;
+	gap: 10px;
+	animation: slideTextIn 1.3s ease-out forwards;
+
+	.img-offer {
+		width: 50px;
+		height: auto;
+	}
+
+	.description {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		gap: 10px;
+
+		h4 {
+			font-family: 'Red Hat Text', sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 800;
+			font-size: 30px;
+			font-style: normal;
+			color: white;
+			width: 280px;
+			height: 90px;
+		}
+
+		p {
+			font-family: 'Markazi Text', serif;
+			font-optical-sizing: auto;
+			font-weight: 800;
+			font-size: 23px;
+			font-style: normal;
+			color: gray;
+			text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+				1px 1px 0 black; /* Black outline effect */
+		}
+	}
+}
+
+@keyframes slideTextIn {
+	from {
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
