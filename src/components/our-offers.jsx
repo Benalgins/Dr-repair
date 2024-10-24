@@ -1,6 +1,33 @@
 import React, { useEffect, useRef, useState } from 'react';
+const useIntersectionObserver = (setVisibleClass) => {
+	useEffect(() => {
+		const observer = new IntersectionObserver(
+			(entries, observerInstance) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						// Add 'in-view' class when the element is visible
+						entry.target.classList.add('in-view');
+						// Stop observing the element once it has been animated
+						observerInstance.unobserve(entry.target);
+					}
+				});
+			},
+			{ threshold: 0.8, rootMargin: '0px 0px -50px 0px' }
+		);
+
+		// Select elements by class name
+		const elements = document.querySelectorAll(setVisibleClass);
+		elements.forEach((el) => observer.observe(el));
+
+		return () => {
+			elements.forEach((el) => observer.unobserve(el));
+		};
+	}, [setVisibleClass]);
+};
 
 export default function OurOffers() {
+	useIntersectionObserver('.text-holder');
+	useIntersectionObserver('.offer');
 	return (
 		<div className="our-offers">
 			<div className="img-container">

@@ -9,18 +9,6 @@
 	gap: 50px;
 }
 
-.text-holder,
-.offer {
-	opacity: 0;
-	transform: translateY(-20px); /* slight movement */
-	transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-.text-holder.in-view,
-.offer.in-view {
-	opacity: 1;
-	transform: translateY(0); /* move to original position */
-}
-
 .background-image {
 	background-image: url('../Imgs/offer-background.jpg');
 	width: 100%;
@@ -50,7 +38,6 @@
 	text-align: center;
 	width: 100%;
 	gap: 50px;
-
 	h3 {
 		font-family: 'Red Hat Text', sans-serif;
 		font-optical-sizing: auto;
@@ -58,7 +45,7 @@
 		font-size: 40px;
 		font-style: normal;
 		color: white;
-		/* animation: slideTextIn 1s ease-out forwards; */
+		animation: slideTextIn 1s ease-out forwards;
 	}
 
 	p {
@@ -70,7 +57,7 @@
 		font-size: 30px;
 		font-style: normal;
 		color: rgb(125, 124, 124);
-		/* animation: slideTextIn 1.2s ease-out forwards; */
+		animation: slideTextIn 1.2s ease-out forwards;
 		filter: contrast(1.7);
 		text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
 			1px 1px 0 black;
@@ -83,8 +70,7 @@
 	align-items: start;
 	width: 100%;
 	height: auto;
-
-	/* animation: slideTextIn 1.3s ease-out forwards; */
+	animation: slideTextIn 1.3s ease-out forwards;
 }
 .offer {
 	display: flex;
@@ -94,7 +80,7 @@
 	width: 400px;
 	height: 250px;
 	gap: 10px;
-	/* animation: slideTextIn 1.3s ease-out forwards; */
+	animation: slideTextIn 1.3s ease-out forwards;
 
 	.img-offer {
 		width: 50px;
