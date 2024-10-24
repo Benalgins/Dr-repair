@@ -1,0 +1,40 @@
+.end-qoute {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0 30px 0;
+}
+
+.backticks {
+	max-width: 1190px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+	.big-backticks {
+		font-size: 35px;
+		font-family: 'Sonsie One';
+	}
+	p {
+		font-family: 'Lugrasimo', cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-style: italic;
+		text-align: center;
+	}
+	.qoute-owner {
+		font-family: 'Edu AU VIC WA NT Hand', cursive;
+		font-optical-sizing: auto;
+		font-weight: 900;
+		font-style: italic;
+		font-size: 20px;
+		opacity: 0.3;
+		.span {
+			font-weight: 400;
+		}
+	}
+}
