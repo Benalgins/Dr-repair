@@ -5,9 +5,8 @@ const useIntersectionObserver = (setVisibleClass) => {
 			(entries, observerInstance) => {
 				entries.forEach((entry) => {
 					if (entry.isIntersecting) {
-						// Add 'in-view' class when the element is visible
 						entry.target.classList.add('in-view');
-						// Stop observing the element once it has been animated
+
 						observerInstance.unobserve(entry.target);
 					}
 				});
@@ -15,7 +14,6 @@ const useIntersectionObserver = (setVisibleClass) => {
 			{ threshold: 0.8, rootMargin: '0px 0px -50px 0px' }
 		);
 
-		// Select elements by class name
 		const elements = document.querySelectorAll(setVisibleClass);
 		elements.forEach((el) => observer.observe(el));
 
@@ -35,6 +33,7 @@ export default function OurOffers() {
 			</div>
 			<div className="text-holder">
 				<h3>Offering you the best solution for your car.</h3>
+				<div className="golden-line"></div>
 				<p>
 					Dr.Rpair is a dedicated facility offering complete auto repair,
 					maintenance, vehicle modification, and performance tuning services for
@@ -44,7 +43,6 @@ export default function OurOffers() {
 					Exotic, & Domestic
 				</p>
 			</div>
-			<div className="golden-line"></div>
 			<div className="offers">
 				<div className="offer">
 					<div className="img-offer">

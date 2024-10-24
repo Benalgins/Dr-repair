@@ -1,7 +1,8 @@
 import BrandService from './components/brand-service';
 import Header from './components/header';
-import Home from './components/home';
+import Home from './components/Home';
 import OurOffers from './components/our-offers';
+import ServiceMenu from './components/service-menu';
 import WorkingOn from './components/working-on';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			<BrandService></BrandService>
 			<OurOffers></OurOffers>
 			<WorkingOn></WorkingOn>
+			<ServiceMenu></ServiceMenu>
 		</>
 	);
 }
