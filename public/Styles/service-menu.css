@@ -7,7 +7,6 @@
 	justify-content: center;
 	align-items: center;
 	gap: 50px;
-	/* padding: 30px; */
 	background: url('/public/Imgs/cls-background.jpg') fixed 100%;
 }
 .service-menu:before {

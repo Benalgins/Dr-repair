@@ -21,6 +21,17 @@
 	opacity: 1;
 	transform: translateY(0);
 }
+.offer:nth-child(1) {
+	transition-delay: 0s;
+}
+
+.offer:nth-child(2) {
+	transition-delay: 0.2s;
+}
+
+.offer:nth-child(3) {
+	transition-delay: 0.5s;
+}
 
 .background-image {
 	background-image: url('../Imgs/offer-background.jpg');
@@ -121,7 +132,7 @@
 			font-size: 30px;
 			font-style: normal;
 			color: white;
-			width: 280px;
+			width: 308px;
 			height: 90px;
 		}
 
