@@ -1,0 +1,44 @@
+.footer {
+	padding: 40px 0 40px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	h4 {
+		font-family: 'Red Hat Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 20px;
+		font-style: normal;
+		color: white;
+		text-transform: uppercase;
+	}
+	p {
+		font-family: 'Markazi Text', serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 18px;
+		font-style: normal;
+		color: #b8b7b7;
+		text-align: start;
+	}
+}
+.about-us {
+	max-width: 500px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.footer-icons {
+	display: flex;
+	height: auto;
+	align-items: center;
+	gap: 10px;
+	.facebook-icon,
+	.instagram-icon {
+		width: 35px;
+		height: auto;
+	}
+}
