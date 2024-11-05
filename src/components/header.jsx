@@ -2,15 +2,17 @@ export default function Header() {
 	return (
 		<header>
 			<div className="header-container">
-				<div className="logo">
-					<div className="logo-img">
-						<img src="/Imgs/logo.png" alt="" />
+				<a href="/">
+					<div className="logo">
+						<div className="logo-img">
+							<img src="/Imgs/logo.png" alt="" href="/" />
+						</div>
+						<div className="site-name">
+							<p>Dr.Repair</p>
+							<p>Autocenter</p>
+						</div>
 					</div>
-					<div className="site-name">
-						<p>Dr.Repair</p>
-						<p>Autocenter</p>
-					</div>
-				</div>
+				</a>
 				<nav>
 					<a href="/about">
 						<p>About Us</p>

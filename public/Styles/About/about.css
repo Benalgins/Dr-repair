@@ -1,0 +1,75 @@
+.about-frontal {
+	max-width: 100%;
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('/public/Imgs/about-img.jpg');
+	background-position: 50% 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	h2 {
+		font-family: 'Red Hat Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 40px;
+		font-style: normal;
+		color: white;
+		z-index: 2;
+		span {
+			text-transform: uppercase;
+			font-size: large;
+			color: #bb2322;
+			font-family: 'Sonsie One', system-ui;
+			font-weight: 400;
+			font-style: normal;
+			font-size: 38px;
+		}
+	}
+}
+.about-frontal:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.4;
+}
+
+.about .description {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	width: 100%;
+	height: auto;
+	padding: 40px 55px 40px 55px;
+	text-align: center;
+
+	h3 {
+		font-family: 'Red Hat Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 30px;
+		font-style: normal;
+	}
+
+	h6 {
+		font-family: 'Markazi Text', serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 25px;
+		font-style: normal;
+		color: #626262;
+	}
+
+	p {
+		font-family: 'Markazi Text', serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-size: 25px;
+		font-style: normal;
+		color: #626262;
+	}
+}
