@@ -74,6 +74,12 @@ export default function About() {
 					</div>
 				</div>
 			</div>
+			<div className="request-appointment">
+				<h2>Request an Appointment</h2>
+				<div className="book-appointment-button">
+					<p>Book Online</p>
+				</div>
+			</div>
 		</div>
 	);
 }

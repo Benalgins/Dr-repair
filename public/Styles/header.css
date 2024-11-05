@@ -7,7 +7,7 @@ header {
 	padding-bottom: 10px;
 }
 .header-container {
-	width: 1000px;
+	width: 1200px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -56,15 +56,18 @@ nav {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	width: 600px;
+	width: 700px;
 	display: flex;
 	justify-content: space-around;
+	gap: 20px;
+	/* flex-grow: 1; */
 	a {
 		color: white;
 		text-decoration: none;
 		font-family: 'Archivo', sans-serif;
-		font-weight: 400;
+		font-weight: 800;
 		transition: color 0.3s ease;
+		text-transform: uppercase;
 	}
 }
 nav a:hover {
@@ -84,8 +87,9 @@ nav a:hover {
 	p {
 		color: white;
 		font-family: 'Archivo', sans-serif;
-		font-weight: 400;
+		font-weight: 800;
 		transition: color 0.3s ease;
+		text-transform: uppercase;
 	}
 }
 

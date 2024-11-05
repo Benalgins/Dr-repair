@@ -17,6 +17,7 @@
 		font-style: normal;
 		color: white;
 		z-index: 2;
+		letter-spacing: 3px;
 		span {
 			text-transform: uppercase;
 			font-size: large;
@@ -25,6 +26,7 @@
 			font-weight: 400;
 			font-style: normal;
 			font-size: 38px;
+			letter-spacing: -2px;
 		}
 	}
 }
@@ -79,13 +81,13 @@
 	justify-content: center;
 	align-items: center;
 	background-color: black;
-	padding-top: 30px;
+	padding: 40px;
 	.card-container {
 		width: 100%;
 		height: auto;
 		display: flex;
 		justify-content: space-around;
-		padding: 0 40px 0 40px;
+		padding: 0 20px 0 20px;
 		.card {
 			width: 500px;
 			height: auto;
@@ -111,6 +113,50 @@
 					text-align: center;
 				}
 			}
+		}
+	}
+}
+
+.request-appointment {
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+	h2 {
+		font-family: 'Red Hat Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 30px;
+		font-style: normal;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #626262;
+	}
+	.book-appointment-button {
+		width: 130px;
+		height: 40px;
+		background-color: black;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px;
+		p {
+			color: white;
+			font-family: 'Markazi Text', serif;
+			font-optical-sizing: auto;
+			font-weight: 800;
+			font-size: 20px;
+			text-align: center;
+			transition: color 0.3s ease;
+		}
+	}
+
+	.book-appointment-button:hover {
+		cursor: pointer;
+		p {
+			color: gold;
 		}
 	}
 }
