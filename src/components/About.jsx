@@ -30,15 +30,45 @@ export default function About() {
 				<div className="card-container">
 					<div className="card">
 						<div className="img-container">
-							<img src="" alt="" />
+							<img src="/Imgs/best-technicians.jpg" alt="" />
 						</div>
 						<div className="card-description">
 							<h5>Knowledgabe Technicians</h5>
 							<p>
-								We know how important trust is. With decades of combined
-								experience, our team's level of diverse automotive knowledge
-								ensures that no matter what repairs or servicing we do to your
-								vehicle, it's done right the first time.
+								We know how important trust is.
+								<br /> With decades of combined experience, our team's level of
+								diverse automotive knowledge ensures that no matter what repairs
+								or servicing we do to your vehicle, it's done right the first
+								time.
+							</p>
+						</div>
+					</div>
+					<div className="card">
+						<div className="img-container">
+							<img src="/Imgs/trusted-european-service.jpg" alt="" />
+						</div>
+						<div className="card-description">
+							<h5>Service of All Make & Models</h5>
+							<p>
+								Cars, trucks, and everything in between.
+								<br /> One of the greatest benefits that comes with having BC's
+								most elite technicians is being able to provide service on
+								virtually any make and model that rolls through our bay doors.
+							</p>
+						</div>
+					</div>
+					<div className="card">
+						<div className="img-container">
+							<img src="/Imgs/aftermarket-card.jpg" alt="" />
+						</div>
+						<div className="card-description">
+							<h5>Aftermarket Upgrades</h5>
+							<p>
+								We love modifying vehicles at the Dr.Repair! Our team provides a
+								wide variety of aftermarket upgrade options for both cars &
+								trucks including wheels, suspension, tuning, exhaust, and much
+								more! Browse our extensive selection of aftermarket parts and
+								accessories.
 							</p>
 						</div>
 					</div>
