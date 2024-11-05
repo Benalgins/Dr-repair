@@ -12,7 +12,7 @@ export default function Header() {
 					</div>
 				</div>
 				<nav>
-					<a href="#">
+					<a href="/about">
 						<p>About Us</p>
 					</a>
 					<a href="#">
