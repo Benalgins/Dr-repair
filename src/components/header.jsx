@@ -29,12 +29,14 @@ export default function Header() {
 					<a href="#">
 						<p>Contact</p>
 					</a>
-					<div className="login-menu">
-						<div className="login-icon">
-							<img src="Imgs/login.png" alt="" />
+					<a href="/login">
+						<div className="login-menu">
+							<div className="login-icon">
+								<img src="Imgs/login.png" alt="" />
+							</div>
+							<p>Log In</p>
 						</div>
-						<p>Log In</p>
-					</div>
+					</a>
 				</nav>
 			</div>
 		</header>
