@@ -17,6 +17,9 @@ export default function Register() {
 			});
 
 			if (response.ok) {
+				setUsername('');
+				setPassword('');
+				setRepeatpassword('');
 				alert('Registration successful!');
 			} else {
 				alert('Error during registration');
