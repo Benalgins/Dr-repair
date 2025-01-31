@@ -1,7 +1,7 @@
 export default function Login() {
 	return (
 		<div className="login">
-			<form action="#" method="Get">
+			<form action="#" method="POST">
 				<div className="login-container">
 					<h2>Login</h2>
 					<label htmlFor="username">Username:</label>

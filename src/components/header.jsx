@@ -37,6 +37,11 @@ export default function Header() {
 							<p>Log In</p>
 						</div>
 					</a>
+					<a href="/register">
+						<div className="register-menu">
+							<p>Register</p>
+						</div>
+					</a>
 				</nav>
 			</div>
 		</header>
