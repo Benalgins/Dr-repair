@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function Register() {
-	const [username, setUsername] = useState('');
+	const [email, setEmail] = useState('');
 	const [password, setPassword] = useState('');
 	const [repeatPassword, setRepeatpassword] = useState('');
 
@@ -13,11 +13,11 @@ export default function Register() {
 				headers: {
 					'Content-Type': 'application/json',
 				},
-				body: JSON.stringify({ username, password, repeatPassword }),
+				body: JSON.stringify({ email, password, repeatPassword }),
 			});
 
 			if (response.ok) {
-				setUsername('');
+				setEmail('');
 				setPassword('');
 				setRepeatpassword('');
 				alert('Registration successful!');
@@ -34,14 +34,14 @@ export default function Register() {
 			<form onSubmit={handleSubmit}>
 				<div className="register-container">
 					<h2>Register</h2>
-					<label htmlFor="username">Username:</label>
+					<label htmlFor="email">Email:</label>
 					<input
-						type="text"
-						id="username"
-						name="username"
-						placeholder="Username"
-						value={username}
-						onChange={(e) => setUsername(e.target.value)}
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Email"
+						value={email}
+						onChange={(e) => setEmail(e.target.value)}
 						required
 					/>
 					<label htmlFor="login-password">Password:</label>
