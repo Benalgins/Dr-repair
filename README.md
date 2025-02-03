@@ -1,8 +1,21 @@
-# React + Vite
+# Dr.Repair
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dr.Repair is a web application designed to help users manage the maintenance of their cars. Users can create profiles, add their cars, and easily track the history of repairs and services performed on their vehicles.
 
-Currently, two official plugins are available:
+🌟 Key Features    
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔧 Profile creation and management 
+
+🚘 Add and manage cars in the profile 
+
+📅 Track and manage maintenance activities 
+
+📝 Keep a history of all completed repairs and maintenance 
+
+
+🛠 Technologies Used
+
+React – For building the user interface
+
+React Router – For navigation
+
