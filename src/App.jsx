@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Login from './components/Login';
 import Register from './components/register';
+import PricingPlans from './components/pricing-plans';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/register" element={<Register />} />
+				<Route path="/pricing-plans" element={<PricingPlans />} />
 			</Routes>
 			<Footer />
 		</>

@@ -1,0 +1,64 @@
+.pricing-plans {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.plans {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cheap.plan,
+.best-offer.plan,
+.premium.plan {
+	border: 2px solid black;
+	border-radius: 5px;
+	align-items: center;
+	display: flex;
+	width: 250px;
+	.plan-header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		.plan-img {
+			width: 150px;
+		}
+
+		.text,
+		.description {
+			max-width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+
+		.description {
+			align-items: start;
+			text-align: start;
+			justify-content: center;
+			max-width: 190px;
+
+			ul {
+				list-style: none;
+				/* align-items: center; */
+				display: flex;
+				flex-direction: column;
+				gap: 7px;
+				.img-has {
+					width: 18px;
+				}
+				li {
+					display: flex;
+					align-items: center;
+					gap: 5px;
+				}
+			}
+		}
+	}
+}

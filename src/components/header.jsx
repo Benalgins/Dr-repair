@@ -20,7 +20,7 @@ export default function Header() {
 					<a href="#">
 						<p>Services</p>
 					</a>
-					<a href="#">
+					<a href="/pricing-plans">
 						<p>Pricing Plans</p>
 					</a>
 					<a href="#">
