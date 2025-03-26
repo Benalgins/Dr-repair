@@ -23,6 +23,6 @@ React Router – For navigation
 
 1.Download
 
-2.Run " npm i "
+2.Run " npm install "
 
 3.The project starts using " npm run dev" .
