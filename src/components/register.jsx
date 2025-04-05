@@ -31,9 +31,9 @@ export default function Register() {
 
 	return (
 		<div className="register">
-			<form onSubmit={handleSubmit}>
-				<div className="register-container">
-					<h2>Register</h2>
+			<h2>Register on our website</h2>
+			<div className="register-container">
+				<form onSubmit={handleSubmit}>
 					<label htmlFor="email">Email:</label>
 					<input
 						type="email"
@@ -65,8 +65,8 @@ export default function Register() {
 						placeholder="Repeat Password"
 					/>
 					<input type="submit" className="btn submit" value="Register" />
-				</div>
-			</form>
+				</form>
+			</div>
 		</div>
 	);
 }

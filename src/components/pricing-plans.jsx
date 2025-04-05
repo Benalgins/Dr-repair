@@ -12,7 +12,7 @@ export default function PricingPlans() {
 						</div>
 						<div className="text">
 							<h3>Monthly:</h3>
-							<h2>150$</h2>
+							<h2>150 €</h2>
 							<div className="description">
 								<ul>
 									<li>
@@ -34,6 +34,10 @@ export default function PricingPlans() {
 									<li>
 										<img src="/Imgs/redcross.png" alt="" className="img-has" />
 										<p>Flat Tire Repair</p>
+									</li>
+									<li>
+										<img src="/Imgs/redcross.png" alt="" className="img-has" />
+										<p>Tire Storage (for winter/summer sets)</p>
 									</li>
 									<li>
 										<img src="/Imgs/redcross.png" alt="" className="img-has" />
@@ -50,19 +54,18 @@ export default function PricingPlans() {
 								</ul>
 							</div>
 						</div>
+						<button>Purchase</button>
 					</div>
 				</div>
 
 				<div className="best-offer plan">
 					<div className="plan-header">
 						<div className="plan-img">
-							<div className="plan-img">
-								<img src="/Imgs/bestsellerimg.png" alt="" />
-							</div>
+							<img src="/Imgs/bestsellerimg.png" alt="" />
 						</div>
 						<div className="text">
 							<h3>Monthly:</h3>
-							<h2>225$</h2>
+							<h2>225 €</h2>
 							<div className="description">
 								<ul>
 									<li>
@@ -84,6 +87,10 @@ export default function PricingPlans() {
 									<li>
 										<img src="/Imgs/checkimg.png" alt="" className="img-has" />
 										<p>Flat Tire Repair</p>
+									</li>
+									<li>
+										<img src="/Imgs/checkimg.png" alt="" className="img-has" />
+										<p>Tire Storage (for winter/summer sets)</p>
 									</li>
 									<li>
 										<img src="/Imgs/redcross.png" alt="" className="img-has" />
@@ -106,13 +113,11 @@ export default function PricingPlans() {
 				<div className="premium plan">
 					<div className="plan-header">
 						<div className="plan-img">
-							<div className="plan-img">
-								<img src="/Imgs/premiumplanimg.png" alt="" />
-							</div>
+							<img src="/Imgs/premiumplanimg.png" alt="" />
 						</div>
 						<div className="text">
 							<h3>Monthly:</h3>
-							<h2>350$</h2>
+							<h2>350 €</h2>
 							<div className="description">
 								<ul>
 									<li>
@@ -134,6 +139,10 @@ export default function PricingPlans() {
 									<li>
 										<img src="/Imgs/checkimg.png" alt="" className="img-has" />
 										<p>Flat Tire Repair</p>
+									</li>
+									<li>
+										<img src="/Imgs/checkimg.png" alt="" className="img-has" />
+										<p>Tire Storage (for winter/summer sets)</p>
 									</li>
 									<li>
 										<img src="/Imgs/checkimg.png" alt="" className="img-has" />

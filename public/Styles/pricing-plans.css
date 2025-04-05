@@ -5,6 +5,18 @@
 	margin: 20px 0 20px 0;
 }
 
+.pricing-plans.title {
+	h3 {
+		font-family: 'Red Hat Text', sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 800;
+		font-size: 30px;
+		font-style: normal;
+		color: red;
+		letter-spacing: 1.5px;
+	}
+}
+
 .plans {
 	width: 100%;
 	height: auto;
@@ -20,8 +32,8 @@
 	border-radius: 5px;
 	align-items: center;
 	display: flex;
-	width: 275px;
-	height: 515px;
+	width: 285px;
+	height: 590px;
 	.plan-header {
 		display: flex;
 		flex-direction: column;
@@ -30,7 +42,7 @@
 		height: 100%;
 		gap: 10px;
 		.plan-img {
-			width: 170px;
+			width: 190px;
 			height: 130px;
 			margin-top: 7px;
 			img {
@@ -46,6 +58,14 @@
 			flex-direction: column;
 			align-items: center;
 			text-align: center;
+			/* h2,
+			h3 {
+				font-family: 'Markazi Text', serif;
+				font-optical-sizing: auto;
+				font-weight: 400;
+				font-size: 35px;
+				color: #56a64c;
+			} */
 		}
 
 		.text {
@@ -70,6 +90,9 @@
 					display: flex;
 					align-items: center;
 					gap: 5px;
+
+					p {
+					}
 				}
 			}
 		}
