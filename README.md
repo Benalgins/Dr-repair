@@ -19,3 +19,10 @@ React – For building the user interface
 
 React Router – For navigation
 
+### How to install & run:
+
+1.Download
+
+2.Run " npm install "
+
+3.The project starts using " npm run dev" .
